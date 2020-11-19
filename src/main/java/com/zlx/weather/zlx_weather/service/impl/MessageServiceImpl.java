@@ -33,9 +33,9 @@ public class MessageServiceImpl implements MessageService {
     private static final Logger LOG = LoggerFactory.getLogger(MessageServiceImpl.class);
 
     private static final String APPID = "49392131";
-    private static final String APPSECRET  = "wErzthl3";
-    private static final String ACCESSKEY = "LTAIqCZeH17zxYLO";
-    private static final String SECRET = "nzgj4Xe1oCtbULFVHEwHpWz0MEurPg";
+    private static final String APPSECRET  = "";
+    private static final String ACCESSKEY = "";
+    private static final String SECRET = "";
     @Override
     public boolean sendSimpleMessage(String phone) {
         DefaultProfile profile = DefaultProfile.getProfile("cn-hangzhou", ACCESSKEY, SECRET);
